@@ -78,7 +78,7 @@
 	textarea {
 		@include vendor('appearance', 'none');
 		background: _palette(border-bg);
-		border: none;
+		border: _palette(border);
 		border-radius: 0;
 		color: inherit;
 		display: block;
