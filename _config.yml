@@ -1,8 +1,8 @@
 # site settings
 title: The Mana Vibe
-subtitle: The jig-jigga-ist jig-jiggaaaaa, hoy jigga.
+subtitle: A place to jig out.
 email: theferrellcouple@gmail.com
-description: A place to jig out.
+description: The jig-jigga-ist jig-jiggaaaaa, hoy jigga.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: The Ferrell Couple
