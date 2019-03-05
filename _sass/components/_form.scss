@@ -79,7 +79,9 @@
 		@include vendor('appearance', 'none');
 		background: _palette(border-bg);
 		border: _palette(border);
-		border-radius: 0;
+		border-color: _palette(border);
+		box-shadow: 0 0 0 2px _palette(border);
+		border-radius: 1;
 		color: inherit;
 		display: block;
 		outline: 0;
