@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: home-no-tiles
 title: Home
 landing-title: 'Welcome to The Mana Vibe.'
 description: null
