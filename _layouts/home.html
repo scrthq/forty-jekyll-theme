@@ -21,7 +21,7 @@
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    <li><a href="#one" class="button next scrolly">{{ site.cta_button_text }}</a></li>
                 </ul>
             </div>
         </div>
@@ -31,20 +31,25 @@
     <div id="main">
 
         <!-- One -->
-        {% include tiles.html %}
+        {% unless page.no_tiles == true %}
+            {% include tiles.html %}
+        {% endunless %}
 
         <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>{% if page.cta_title == null %}{{ page.cta_title }}{% else %}{{ site.cta_title }}{% endif %}</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-            </div>
-        </section>
+        {% unless page.no_cta == true %}
+            <section id="two">
+                <div class="inner">
+                    <header class="major">
+                        <h2>{{ site.cta_title }}</h2>
+                    </header>
+                    <p>{{ site.cta_body }}</p>
+                    <ul class="actions">
+                        <li><a href="landing.html" class="button next">{{ site.cta_button_text }}</a></li>
+                    </ul>
+                </div>
+            </section>
+        {% endunless %}
+
 
     </div>
 

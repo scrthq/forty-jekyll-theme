@@ -15,6 +15,9 @@ phone:
 
 # Call to action
 cta_title: Our mission
+cta_button_text: Let's go!
+cta_body: |
+    Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
