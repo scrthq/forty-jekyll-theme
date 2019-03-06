@@ -390,7 +390,7 @@ Finally, this is a <a href="#">link</a>.</p>
 
 <!-- Preformatted Code -->
 <h3>Preformatted</h3>
-```js
+<pre><code class="javascript">
 i = 0;
 
 while (!deck.isInOrder()) {
@@ -400,7 +400,7 @@ while (!deck.isInOrder()) {
 }
 
 print 'It took ' + i + ' iterations to sort the deck.';
-```
+</code></pre>
 
 </div>
 </div>
